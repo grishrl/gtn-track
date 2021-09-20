@@ -11,7 +11,7 @@ const searchRoutes = require('./routes/search');
 
 //host name and port
 const hostname = process.env.hostname;
-const port = process.env.port;
+const port = process.env.PORT;
 
 //bootstrap express server
 const app = express();
